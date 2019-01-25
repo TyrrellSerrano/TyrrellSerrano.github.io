@@ -1,0 +1,18 @@
+body{
+background:black;
+text-color:white;
+color: white;
+}
+
+.center{
+text-align:center;
+}
+
+@font-face {
+    font-family: Suburban;
+    src: url("Suburban.ttf") 
+}
+
+h1{
+font-family: 'Suburban', Fallback, sans-serif;
+}
