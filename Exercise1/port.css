@@ -3,6 +3,7 @@ background:black;
 text-color:white;
 color: white;
 font-size:300%;
+text-align:center;
 }
 
 .center{
@@ -16,4 +17,10 @@ text-align:center;
 
 h1{
 font-family: 'Suburban', Fallback, sans-serif;
+}
+
+img{
+width:700px;
+height:auto;
+float:left;
 }
