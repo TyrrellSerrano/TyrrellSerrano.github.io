@@ -156,9 +156,11 @@ position:absolute;
 padding:0;
 margin:0;
 } 
- #front {
+ .front {
    z-index:9;
  }
+
+ .back{z-index:-1; display:none;}
 
  text {
  font-size:5;
