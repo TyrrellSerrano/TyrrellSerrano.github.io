@@ -1,0 +1,16 @@
+https://stamfordhistoricstructures.com/
+-simple navbar
+-visually appealing
+
+
+https://fergusonlibrary.org/
+-managed to condense a lot of information and options into one page without it being a complete mess.
+-can manuever into different branches of the site from navbar.
+
+https://fergusonlibrary.org/ (digital archive)
+- very simple top nav with great use of white space.
+- page content is well spaced out also with a good amount of white space
+
+http://stamfordhistory.org/a-condensed-history-of-stamford-ct/
+- content tabs move through information without reloading the webpage
+- neat navbar at the top
