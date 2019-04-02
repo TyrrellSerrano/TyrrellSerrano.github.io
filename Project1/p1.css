@@ -211,6 +211,11 @@ display:grid;
 grid-template-areas:'pic pic text';
 }
 
+.building img:hover{
+  opacity:0.8;
+  filter:alpha(opacity=80); 
+}
+
 .pic{width:;
 background-color:;
 }
@@ -233,4 +238,33 @@ text-align:center;
 background-color:;
 width: 700px;
 color: white;
+}
+
+.bg {
+margin-top:0;
+padding:0;
+z-index:-10;
+}
+
+.bg img{
+height:100%;
+width:100%;
+}
+
+.bg .info{
+position: absolute;
+top: 50%;
+left:50%;
+transform:translate(-50%, -50%);
+max-height:80vh;
+font-size:1.5em;
+text-align:center;
+justify-content:center;
+z-index:1;
+color:white;
+background-color:rgba(1,1,1,0.7);
+}
+
+#info{
+
 }

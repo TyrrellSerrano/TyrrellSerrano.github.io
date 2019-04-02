@@ -52,3 +52,16 @@ function mousePressed() {
         pic = true;
     }
 } */
+
+var show = true;
+
+function hide() {
+    if (show == true) {
+        document.getElementById("info").style.display = "none";
+        show = false;
+    }
+    else {
+        document.getElementById("info").style.display = "inherit";
+        show = true;
+    }
+}
