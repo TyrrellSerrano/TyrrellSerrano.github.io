@@ -138,8 +138,6 @@ scrollbar-width:none;
 -ms-overflow-style:none; */
 }
 
-.wrapper::-webkit-scrollbar{width:0; height:0;}
-
 /* Navigation */
 navbar a {
   background: var(--primary);
