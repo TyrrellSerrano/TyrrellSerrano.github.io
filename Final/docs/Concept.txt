@@ -1,4 +1,5 @@
 My Target audience is Fighting game players (FGC - Fighting Game Community members), particularly those who play Dragonball FighterZ.
-The goal is to both provide Information about the game (at a competitive level) as well as be a platform for others to post information.
+The goal is to both provide Information about the game as well as be a platform for others to post information.
+Ideally the website will become the central location for fighting game players to come for information about a given game.
 The Website will be organised first by game title then by gameplay elements.
 A strong focus on easy navigation & easy to read information will be implamented.
