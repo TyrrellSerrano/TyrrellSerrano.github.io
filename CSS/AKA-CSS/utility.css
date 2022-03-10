@@ -1,0 +1,33 @@
+.textCenter{
+text-align:center;
+}
+.elemCenter{
+position:relative;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+text-align:center;
+}
+.textUnderline{
+text-decoration:underline;
+}
+.sectPadding{
+padding:2em;
+}
+.elemPadding{
+padding:.2em;
+}
+
+.opacBlack{
+background-color: rgba(0,0,0,1);
+}
+:root {
+  --mainPink: #f6a1b5;
+  --mainGreen: #20821e;
+}
+.siteGreen{
+color: #16A747 !important;
+}
+.sitePink{
+color: rgb(209, 123, 139) !important;
+}

@@ -1,0 +1,288 @@
+body, html {
+    height: 100%;
+    background-color: var(--mainPink) !important;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Merienda', cursive;
+    font-size: 1.2em;
+}
+
+.parallax {
+    /* The image used */
+    background-color: var(--mainPink);
+    background-image: url('../img/banner.png');
+    background-image: url(' https://img1.wsimg.com/isteam/ip/42c2b4ce-2aa3-48f4-a2d8-06bad7fce26f/1c8ab5b6-9c5d-410c-a464-727a86719049.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tasBanner {
+    /* The image used */
+    background-image: url('../img/banner.png');
+    background-image: url(' https://photomedia.in/wp-content/uploads/2020/03/texture-green-background.jpg');
+    background-image: url('https://photomedia.in/wp-content/uploads/2020/03/green-texture-background.jpg');
+    background-image: url('https://photomedia.in/wp-content/uploads/2020/03/green-colour-background.jpg');
+    /*background-image: url('https://photomedia.in/wp-content/uploads/2020/03/green-background-for-banner.jpg');*/
+    height: 35%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .tasBanner > div > h1 {
+        text-align: center;
+        transform: translateY(13.5vh);
+        color: white;
+    }
+
+.sectionHeader {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--mainGreen);
+    font-size: 1.5vw;
+    color: white;
+    z-index: 10;
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+}
+
+    .sectionHeader img {
+        border-radius:8px;
+        height: 4px;
+        overflow: hidden;
+        position: relative;
+        width: 80vw;
+        z-index: 1;
+        top:50%;
+    }
+
+    .sectionHeader h1 {
+        z-index: 20;
+        background-color: var(--mainGreen);
+        /*color: yellow;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);*/
+    }
+
+.divider {
+    display: flex;
+}
+
+    .divider:before, .divider:after {
+        content: "";
+        flex: 1;
+    }
+
+.line {
+    align-items: center;
+    /*margin: 1em -1em;*/
+}
+
+    .line:before, .line:after {
+        height: 1px;
+        margin: 0 3em;
+    }
+
+    .line:after {
+        margin-left:1em;
+    }
+    .line:before {
+        margin-right: 1em;
+    }
+.one-line:before, .one-line:after {
+    background: white;
+}
+ 
+
+.video-section {
+    position:relative;
+    text-align:center;
+}
+.vid-cont {
+}
+    .vid-cont iframe {
+    max-width: 80vw;
+    width:100%;
+    height: auto;
+    min-height:700px;
+    }
+
+.our-targets {
+    background:white;
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /*grid-gap:.5em;*/
+}
+
+    .our-targets img {
+        /*width: 15vw;
+        height: 15vw;
+        /*justify-content:center;
+        align-self: flex-end;*/
+        margin-top:auto;
+    }
+    .our-targets h3 {
+        display:none;
+    }
+
+.targetCont > span {
+    border-right: 1px solid var(--mainGreen);
+    padding-right: .2em;
+    padding-left: .2em;
+}
+.targetCont > span:last-child {
+    border:none;
+}
+
+/*body > div.our-targets > span{
+    padding:.5em;
+}*/
+
+.presMsg img {
+    float: left;
+    padding-right: 1em;
+}
+.presPhoto {
+    overflow: hidden;
+    height: 100%;
+    background-image: url('../img/prez.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    min-width: 330px;
+}
+    .presPhoto img {
+        /*width:100%;*/
+        height: 100%;
+    }
+.presMsg {
+    padding: 1em;
+    padding-top: 2em;
+}
+.presGrid {
+    display:grid;
+    /*grid-template-areas:"pic lst"
+                        "txt txt";
+    grid-gap:1em;*/
+    grid-template-columns: auto auto;
+}
+
+.officers {
+    padding: 1em;
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background:white;
+}
+    .officers > div {
+        background: var(--mainPink);
+        padding: .5em;
+        margin: .75em;
+        border: 2px solid #16A747;
+        /* border-bottom: none; */
+        overflow: hidden;
+        box-shadow: -6px 8px rgb(0 0 0 / 0.2);
+        box-shadow: -10px 8px 10px 4px rgb(0 0 0 / 20%);
+    }
+        .officers > div:nth-child(4n + 3), .officers > div:nth-child(4n + 4) {
+            box-shadow: 6px 8px gray;
+            box-shadow: 10px 8px 10px 4px rgb(0 0 0 / 20%);
+        }
+    .officers > div img{
+        padding-bottom:.25em;
+    }
+.officers img {
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.visionaries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.history {
+    padding: 1em;
+    padding-top: 2em;
+}
+
+.tas3col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tas2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.roundImg img{
+    border-radius: 50%;
+    padding-bottom:.5em;
+}
+
+.calenderCont {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.subPic {
+    overflow:hidden;
+    height: 25vh;
+    width: 100%;
+    background-color: rgba(5, 5, 5, 0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.topTxt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+footer .subPic {
+height:100%;
+padding:3em;
+}
+
+.footSocial {
+width:3em;
+padding:.2em;
+}
+
+@media only screen and (max-width: 950px) {
+    .our-targets {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+        .our-targets span div {
+            /*height: 300px;
+            overflow: hidden;
+            /*display:flex;*/
+        }
+    .targetCont > span:last-child {
+        border-right: 1px solid var(--mainGreen);
+        border-bottom:none;
+    }
+    .targetCont > span:nth-child(4) {
+        border-bottom: none;
+    }
+    .targetCont > span:nth-child(3) {
+        border-right:none;
+    }
+    .targetCont > span {
+        border-bottom: 1px solid var(--mainGreen);
+    }
+}
