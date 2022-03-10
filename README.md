@@ -1,3 +1,2 @@
 # TyrrellSerrano.github.io
-Personal Website
-And for school stuff too i guess.
+How 2 Host Nonsense 101
